@@ -3,8 +3,7 @@ import Head from "next/head";
 import { GetServerSideProps } from "next";
 import { GraphQLClient, gql } from "graphql-request";
 
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const endpoint = process.https://sport24796.blogspot.com/2023/10/blog-post_89.html
+export const getServerSideProps: GetServerSideProps = async (ctx) => 
   const graphQLClient = new GraphQLClient(endpoint);
   const referringURL = ctx.req.headers?.referer || null;
   const pathArr = ctx.query.postpath as Array<string>;
